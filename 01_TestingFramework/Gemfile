@@ -1,6 +1,6 @@
 # Gemfile
 source 'http://rubygems.org'
-ruby '2.1.0'
+ruby '2.1.2'
  
 gem 'tilt', '~> 1.4.1'
 gem "sinatra"
@@ -24,6 +24,9 @@ gem "activerecord"
 gem "sinatra-activerecord"
 gem 'data_mapper'
 gem "warden"
+gem "cucumber"
+gem "capybara"
+gem "selenium-webdriver"
 
 group :development, :test do
  gem "shotgun"
@@ -32,9 +35,6 @@ group :development, :test do
  gem 'dm-sqlite-adapter'
 end
 
-group :production do
- gem 'pg'
- gem 'dm-postgres-adapter'
-end
-
+gem "rspec"
+gem "nokogiri"
 

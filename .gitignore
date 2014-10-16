@@ -4,3 +4,5 @@
 */cookbooks/*
 */.kitchen/*
 03_ContinuousIntegration/CI_Agent/.kitchen/*
+
+01_TestingFramework/coverage/.last_run.json
