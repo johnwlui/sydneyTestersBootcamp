@@ -28,6 +28,10 @@ gem "cucumber"
 gem "capybara"
 gem "selenium-webdriver"
 
+gem "cucumber"
+gem "capybara"
+gem "selenium-webdriver"
+
 group :development, :test do
  gem "shotgun"
  gem 'sqlite3'
