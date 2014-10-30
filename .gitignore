@@ -4,5 +4,5 @@
 */cookbooks/*
 */.kitchen/*
 03_ContinuousIntegration/CI_Agent/.kitchen/*
-
-01_TestingFramework/coverage/.last_run.json
+03_ContinuousIntegration/CI_Agent/slave.jar
+03_ContinuousIntegration/CI_Agent/workspace
